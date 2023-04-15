@@ -13,12 +13,25 @@ Created a Banking Application using Python and MySQL. Data entered by the user a
 
 ### About Mysql :
 1. Database - Databricks
-2. host = localhost
-3. user=root
-4. password=root
+2. host - localhost
+3. user - root
+4. password - root
 
 UserName is the Primary Key in Bank Table and UserName1 is the Foreign key in Transaction Table.
 
 My Sql Code for Creating Table Bank create table bank(name varchar(30), UserName varchar(30)primary key,password tinytext , Date_of_birth date, address varchar(40),Mobile_Number varchar(30) ,Aadhar_no varchar(30), Balance int);
 
 My Sql code for creating Table Transaction: create table Transaction(credited int , debited int , username1 varchar(20), foreign key(username1) references bank(username));
+
+### Output Screen :
+#
+![Screenshot (341)](https://user-images.githubusercontent.com/104273538/232208980-6b8eee0c-9138-424d-9c9a-a5e92bcd1981.png)
+#
+![Screenshot (342)](https://user-images.githubusercontent.com/104273538/232209004-b1fb1e55-a7c2-45e8-8157-6be5b2d93f3e.png)
+#
+![Screenshot (343)](https://user-images.githubusercontent.com/104273538/232209016-6a44f8c6-4bee-4f52-b2a9-b4f8fb93feda.png)
+#
+![Screenshot (346)](https://user-images.githubusercontent.com/104273538/232209030-0fa7f189-8601-4772-b8de-c7d2a86f9917.png)
+#
+![Screenshot (345)](https://user-images.githubusercontent.com/104273538/232209021-add1cf2c-0c68-4885-a0da-c35e9de5de72.png)
+#
