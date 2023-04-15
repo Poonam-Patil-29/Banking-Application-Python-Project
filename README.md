@@ -22,4 +22,3 @@ UserName is the Primary Key in Bank Table and UserName1 is the Foreign key in Tr
 My Sql Code for Creating Table Bank create table bank(name varchar(30), UserName varchar(30)primary key,password tinytext , Date_of_birth date, address varchar(40),Mobile_Number varchar(30) ,Aadhar_no varchar(30), Balance int);
 
 My Sql code for creating Table Transaction: create table Transaction(credited int , debited int , username1 varchar(20), foreign key(username1) references bank(username));
-
